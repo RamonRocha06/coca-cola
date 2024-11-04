@@ -1,0 +1,933 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+   background-color: #eeeeee;
+}
+
+header{
+    display: flex;
+    padding: 0 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.logo-image{
+    width: 5rem;
+    cursor: pointer;
+}
+
+.header-left{
+    display: flex;
+    gap: 3rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+}
+
+.link a {
+    font-weight: 630;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.profile{
+    height: 1.4rem;
+    width: 1.4rem;
+    cursor: pointer;
+}
+
+
+.header-right{
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.div-cards{
+    display: flex;
+}
+
+.section-two{
+    display: flex;
+    margin-top: 8rem;
+}
+
+.section-three{
+    display: flex;
+    margin-top: 8rem;
+}
+
+.section-four{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.card-brains{
+    display: flex;
+}
+
+main{
+    padding: 0 6rem;
+}
+
+.section-one h2{
+     text-align: center;
+     font-size: 2rem;
+     font-weight: 700;
+     margin: 2rem 0;
+}
+
+
+.card-one-text, .card-two-text{
+    padding: 2rem;
+}
+
+.card-one-text h3, .card-two-text h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-one-text p, .card-two-text p{
+    color: rgb(46, 46, 46);
+    margin-top: 16px;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    line-height: 1.7rem;
+}
+
+.card-one-text a, .card-two-text a{
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.card-one, .card-two{
+    width: 35rem;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.card-one img, .card-two img{
+      width: 100%;
+      border-top-left-radius: 18px;
+      border-top-right-radius:18px ;
+}
+
+.div-cards{
+   
+    justify-content: space-between;
+}
+
+
+.card-sustainability{
+    width: 35rem;
+    padding: 4rem 3.5rem;
+    background-color: white;
+    border-radius: 18px;
+   
+}
+
+.card-sustainability h2{
+    font-size: 2.3rem;
+}
+
+.card-sustainability p{
+    color: rgb(46, 46, 46);
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 13rem;
+    line-height: 1.7rem;
+}
+
+.card-sustainability button{
+    font-size: 1rem;
+    padding: 0.6rem 6rem;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid black ;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.card-sustainability button:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.section-two img{
+    width: 40rem;
+    height: 30rem;
+    position: absolute;
+   z-index: -1;
+   right: 6rem;
+   margin-top: 4rem;
+   border-radius: 18px;
+}
+
+.section-three img{
+    width: 35rem;
+    height: 35rem;
+    border-radius: 18px;
+    
+}
+
+.store-coca-cola h2{
+    font-size: 2.3rem;
+   width: 70%;
+   margin-top: 10rem;
+}
+
+.store-coca-cola p{
+    color: rgb(46, 46, 46);
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+    width: 70%;
+}
+
+.store-coca-cola{
+    padding: 0 0 0 8rem;
+}
+
+.store-coca-cola button{
+    font-size: 1rem;
+    padding: 0.6rem 6rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid black ;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.store-coca-cola button:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.section-four h2{
+    font-size: 2rem;
+    
+}
+
+.card-brands{
+    display: flex;
+    gap: 3rem;
+   
+}
+
+.img-coca, .img-fanta{
+    width: 12rem;
+    height: 12rem;
+    
+    
+}
+
+.sprite-div{
+    background-color: white;
+    height: 15rem;
+    align-items: center;
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    border-radius: 18px;
+    box-shadow: 0 0 30px 3px #e0e0e0;
+    cursor: pointer;
+    border-top: 0px solid white;
+}
+.coca-div, .fanta-div{
+    background-color: white;
+    height: 15rem;
+    align-items: center;
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    border-radius: 18px;
+    box-shadow: 0 0 30px 3px #e0e0e0;
+    cursor: pointer;
+}
+
+.img-sprite{
+    width: 12rem;
+    height: 7rem;
+}
+
+.section-four button{
+    font-size: 1rem;
+    padding: 0.6rem 6rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid black ;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.section-four button:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.sprite-div:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+    
+}
+
+.fanta-div:hover{
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.coca-div:hover{
+    
+     transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+footer{
+    background-color: black;
+    margin-top: 9rem;
+    padding: 2rem 7rem 6rem;
+}
+
+.img-footer{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white ;
+    justify-content: space-between;
+}
+
+.img-footer img{
+    width: 8rem ;
+}
+
+.img-footer a{
+    font-size: 1rem;
+    border: 2px solid white;
+    width: 6rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+.img-footer a:hover{
+    background-color: rgb(24, 24, 24);
+}
+
+.links-footer{
+   display: flex;
+   gap: 6rem;
+   border-bottom: 1px solid white ;
+   padding: 3rem 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.links p{
+    font-size: 70%;
+   font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: rgb(192, 192, 192);
+}
+
+.links:nth-child(3){
+    margin-top: 2.4rem;
+}
+
+.right-reserved p{
+   color: rgb(212, 212, 212);
+   font-size: 0.9rem;
+   font-weight: 540;
+
+}
+
+.right-reserved{
+    padding-top: 3.5rem;
+    justify-content: end;
+    display: flex;
+}
+
+@media screen and (max-width:1300px) {
+    main {
+        padding: 0 4rem;
+    }
+
+    .section-two img {
+        width: 40rem;
+        height: 33rem;
+    }
+}
+
+
+@media screen and (max-width:1115px) {
+    
+    .menu{
+        display: none;
+    }
+
+    .card-one, .card-two {
+        width: 30rem;
+    }
+
+    main {
+        padding: 0 3rem;
+    }
+
+    .card-sustainability {
+        width: 100%;
+        padding: 2rem 2rem;
+    }
+
+    .card-sustainability p {
+        font-weight: 500;
+        color: rgb(46, 46, 46);
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+        line-height: 1.7rem;
+    }
+
+    .card-sustainability h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-sustainability button {
+        width: 100%;
+    }
+
+    .section-two img {
+        width: 100%;
+        height: 50rem;
+        position: absolute;
+        left: 0;
+        margin-top: 10rem;
+        border-radius: 0;
+    }
+
+    .section-three {
+        display: flex;
+        margin-top: 50rem;
+        flex-direction: column;
+    }
+
+    .section-three img {
+        width: 100%;
+        border-radius: 18px;
+        height: 100%;
+    }
+
+    .store-coca-cola {
+        padding: 0;
+    }
+
+    .store-coca-cola h2 {
+        text-align: center;
+        font-size: 1.7rem;
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .store-coca-cola p {
+        margin: auto;
+        display: block;
+        text-align: center;
+        color: rgb(46, 46, 46);
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        line-height: 1.7rem;
+        width: 100%;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    .store-coca-cola button {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    .section-four button {
+        width: 100%;
+}
+}
+
+@media screen and (max-width:1083px){
+    .div-cards {
+        justify-content: space-evenly;
+    }
+
+    .card-one, .card-two {
+        width: 25rem;
+    }
+}
+
+
+@media screen and (max-width:950px){
+    .div-cards {
+        justify-content: space-evenly;
+    }
+
+    .card-one, .card-two {
+        width: 23rem;
+    }
+}
+
+@media screen and (max-width:870px){
+    .div-cards {
+        justify-content: space-evenly;
+    }
+
+    .card-one, .card-two {
+        width: 21rem;
+    }
+
+    .coca-div, .fanta-div {
+        height: 14rem;
+        width: 14rem;  
+    }
+
+    .img-coca, .img-fanta {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .img-sprite {
+        width: 11rem;
+        height: 6rem;
+    }
+
+    .sprite-div {
+        height: 14rem;
+        width: 14rem;
+    }
+
+}
+
+@media screen and (max-width:815px){
+    .card-one-text h3, .card-two-text h3 {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .card-one-text p, .card-two-text p {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-one-text a, .card-two-text a {
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .card-one, .card-two {
+        width: 20rem;
+    }
+
+    .card-one-text, .card-two-text {
+        padding: 1.3rem;
+    }
+
+    .card-one-text p{
+        margin-bottom: 5.5rem;
+    }
+
+    .img-coca, .img-fanta {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .img-sprite {
+        width: 9rem;
+        height: 5rem;
+    }
+
+    .sprite-div {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .coca-div, .fanta-div {
+        height: 10rem;
+        width: 10rem;  
+    }
+
+    .card-brands {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:790px){
+    .div-cards {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .card-one, .card-two {
+        width: 100%;
+    }
+
+    footer {
+        background-color: black;
+        margin-top: 9rem;
+        padding: 1rem 3rem 5rem;
+    }
+
+    .links p {
+        font-size: 60%;
+    }
+
+    .links a {
+        font-size: 0.8rem;
+    }
+
+    .section-two img {
+        width: 100%;
+        height: 40rem;
+    }
+    
+    .section-three {
+        display: flex;
+        margin-top: 40rem;
+    }
+
+}
+
+@media screen and (max-width:600px){
+ .links-footer {
+    display: flex;
+    gap: 3rem;
+    border-bottom: 1px solid white;
+    padding: 2rem 0;
+}
+
+.section-two img {
+    width: 100%;
+    height: 30rem;
+}
+
+.section-three {
+    display: flex;
+    margin-top: 30rem;
+}
+
+.img-coca, .img-fanta {
+    width: 7rem;
+    height: 7rem;
+}
+
+.sprite-div {
+    height: 9rem;
+    width: 9rem;
+}
+
+.coca-div, .fanta-div {
+    height: 9rem;
+    width: 9rem;
+}
+
+.card-brands {
+    display: flex;
+    gap: 1rem;
+}
+
+}
+
+@media screen and (max-width:600px){
+    .img-sprite {
+        width: 7rem;
+        height: 4rem;
+    }
+
+    .img-coca, .img-fanta {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .coca-div, .fanta-div {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .sprite-div {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .right-reserved p {
+        color: rgb(212, 212, 212);
+        font-size: 0.6rem;
+        font-weight: 540;
+    }
+
+    .right-reserved {
+        padding-top: 2rem;
+        justify-content: start;
+        display: flex;
+    }
+
+    .img-footer a {
+        font-size: 0.8rem;
+        border: 2px solid white;
+        width: 5rem;
+        height: 2rem;
+    }
+
+    .img-footer img {
+        width: 7rem;
+    }
+
+    .section-two img {
+        width: 100%;
+        height: 28rem;
+    }
+
+    .section-three {
+        display: flex;
+        margin-top: 25rem;
+    }
+
+    footer {
+        background-color: black;
+        margin-top: 9rem;
+        padding: 1rem 1rem 5rem;
+    }
+
+    .links a {
+        font-size: 0.6rem;
+    }
+
+    .links p {
+        font-size: 50%;
+    }
+
+    .img-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: 11rem;
+    }
+
+    .img-footer a {
+        font-size: 0.8rem;
+        border: 2px solid white;
+        width: 100%;
+        height: 2rem;
+    }
+
+
+}
+
+
+@media screen and (max-width:530px){
+
+
+    .section-four h2 {
+        font-size: 1.5rem;
+    }
+
+    .img-coca, .img-fanta {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .coca-div, .fanta-div {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .card-brands {
+        flex-direction: column;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .sprite-div {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .img-sprite {
+        width: 11rem;
+        height: 6rem;
+    }
+
+    .section-four {
+        gap: 4rem;
+    }
+
+    .section-one h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 2rem 0;
+    }
+
+    .profile {
+        height: 1.2rem;
+        width: 1.2rem;
+        cursor: pointer;
+    }
+
+    .logo-image {
+        width: 4rem;
+        cursor: pointer;
+    }
+
+    .card-sustainability p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        text-align: justify;   
+    }
+
+    .card-sustainability h2 {
+        font-size: 1.7rem;
+    }
+
+    .card-sustainability button {
+        font-size: 0.9rem;
+    }
+
+    .card-sustainability {
+        width: 100%;
+        padding: 2rem 1.5rem;
+    }
+
+    main {
+        padding: 0 1.5rem;
+    }
+
+    .store-coca-cola h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+
+}
+
+@media screen and (max-width:450px){
+
+    .card-sustainability button {
+        font-size: 0.7rem;
+        padding: 0.6rem 0;
+    }
+
+    .card-sustainability h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-sustainability p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+
+    .section-two img {
+        width: 100%;
+        height: 23rem;
+    }
+
+    .section-three {
+        display: flex;
+        margin-top: 20rem;
+    }
+
+    header {
+        display: flex;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .store-coca-cola button {
+        font-size: 0.8rem;
+        padding: 0.6rem 0;
+    }
+
+    .store-coca-cola p {
+        font-size: 0.8rem;
+    }
+
+    .store-coca-cola h2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .section-one h2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .section-four h2 {
+        font-size: 1.2rem;
+    }
+
+    .section-four {
+        gap: 2rem;
+    }
+
+    .links a {
+        font-size: 0.5rem;
+    }
+
+    .right-reserved p {
+        color: rgb(212, 212, 212);
+        font-size: 0.5rem;
+        font-weight: 540;
+    }
+
+    .img-footer a {
+        font-size: 0.7rem;
+        border: 2px solid white;
+        width: 100%;
+        height: 1.8rem;
+    }
+
+    .card-sustainability button {
+        font-size: 0.8rem;
+        padding: 0.6rem 0;
+    }
+
+    .section-four button {
+        font-size: 0.8rem;
+        padding: 0.6rem 0;
+    }
+
+
+}
